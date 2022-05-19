@@ -1,13 +1,22 @@
 body {
-    background: black;
+    background: rgb(240, 127, 52);
 }
 
 .clock {
     position: relative;
     text-align: center;
     color: #e98208;
-    font-size: 60px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 7px;
+}
+
+.date {
+    position: relative;
+    text-align: center;
+    color: #e98208;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
     letter-spacing: 7px;
 }
 
@@ -15,17 +24,16 @@ body {
     position: relative;
     text-align: center;
     color: #e98208;
-    font-size: 50px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    letter-spacing: 7px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .text2 {
     position: relative;
     text-align: center;
     color: #e98208;
-    font-size: 40px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
     letter-spacing: 7px;
     margin-right: 100px;
     margin-left: 100px;

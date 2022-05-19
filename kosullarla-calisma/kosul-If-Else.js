@@ -46,20 +46,26 @@ if (examGrade >= 0 && examGrade <= 100) {
         textInfo += " AA ile geçtiniz"  //SMİLE +=
         info.classList.add('text-primary')
     } else if (examGrade >= 85) {
+        info.classList.add('text-primary')
         textInfo += " BA ile geçtiniz"
     } else if (examGrade >= 80) {
+        info.classList.add('text-primary')
         textInfo += " BB ile geçtiniz"
     } else if (examGrade >= 75) {
+        info.classList.add('text-primary')
         textInfo += " CB ile geçtiniz"
     } else if (examGrade >= 70) {
+        info.classList.add('text-primary')
         textInfo += " CC ile geçtiniz"
     } else if (examGrade >= 65) {
         textInfo = `${NEUTRAL} KOŞULLU - DC ile geçtiniz`
         info.classList.add('text-warning')
     } else if (examGrade >= 60) {
         textInfo = `${NEUTRAL} KOŞULLU - DD ile geçtiniz`
+        info.classList.add('text-warning')
     } else if (examGrade >= 50) {
         textInfo = `${NEUTRAL} KOŞULLU - FD ile geçtiniz `
+        info.classList.add('text-warning')
     } else if (examGrade < 50) {
         textInfo = `${SAD} FF ile KALDINIZ ` //SAD
         info.classList.remove('text-primary')
