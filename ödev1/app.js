@@ -19,7 +19,7 @@ function showTime() {
     else if (day == 4) { day = "PERŞEMBE" }
     else if (day == 5) { day = "CUMA" }
     else if (day == 6) { day = "CUMARTESİ" }
-    else if (day == 7) { day = "PAZAR" }
+    else if (day == 0) { day = "PAZAR" }
 
     document.querySelector("#myClock").innerHTML = hour + ":" + minute + ":" + second + "  " + day;
     setTimeout(showTime, 1000);
