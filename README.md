@@ -1,3 +1,3 @@
-# JavaScript-Excises
+# JavaScript-Exercises
 
 Frontend patikası için ödevler.
