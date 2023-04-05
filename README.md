@@ -1,6 +1,6 @@
 # JavaScript-Exercises
 
-## Ödev1 | Branch Notlarım
+## Ödev1 | Branch Notlarım | Sueda Branch'i Oluşturuldu
 https://user-images.githubusercontent.com/88403704/169748399-dc61b771-e9e4-4dfa-bf8f-532dac8cb5ef.mov
 
 ## ödev2 | çin zodyağı
